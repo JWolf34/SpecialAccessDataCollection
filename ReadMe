@@ -1,0 +1,16 @@
+---THIS CODE WILL NOT WORK AS IT IS---
+---SECURE INFORMATION HAS BEEN REMOVED FROM CODE---
+---THIS SERVES ONLY AS A DEMONSTRATION OF THE AUTHOR'S UNDERSTANDING OF PYTHON AND WUFOO'S WEB API---
+
+In short, this code does the following:
+
+- Establishes a remote connection to Wufoo Web API with authentication information
+- Receives up to 100 entries from the specified form in JSON format
+- Parses the JSON and inserts the data into an Excel spreadsheet formatted with modular headings (via text file)
+  for easy insertion into Microsoft Access database.
+- Establishes a connection with the Microsoft Access database and performs a series of "INSERT" commands using
+  the previously created and populated Excel spreadhseet.
+- Gives feedback as to when each process is active and completed, letting the user know how many entries were
+  inserted for both user feedback and debugging purposes.
+  
+Code is commented for more in-depth descriptions on code philosophy and function within "Get Wufoo Data.py".
